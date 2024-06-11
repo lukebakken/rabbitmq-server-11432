@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Continue'
 Set-StrictMode -Version 2.0
 
 $username = "testUser6"
-$password = 'w63pnZ&LnYMO(t'
+$password = '"w63pnZ&LnYMO(t"'
 
 $rabbitmq_version='3.13.3'
 $rabbitmq_dir = Join-Path -Path $PSScriptRoot -ChildPath "rabbitmq_server-$rabbitmq_version"
