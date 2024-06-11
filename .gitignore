@@ -1,0 +1,8 @@
+*.beam
+*.bin
+*.dump
+*.xz
+*.zip
+
+rabbitmq_server*/
+rmq/
